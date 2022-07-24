@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: php-apache.devopsbyexample.io
+    - host: apache.test.vignali.rocks
       http:
         paths:
           - path: /
