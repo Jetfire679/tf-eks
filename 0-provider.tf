@@ -1,6 +1,6 @@
 provider "aws" {
-  region = "us-east-1"
-  profile = "675716041761_AdministratorAccess"
+  region  = "us-east-2"
+  alias = "east-2"
 }
 
 terraform {
